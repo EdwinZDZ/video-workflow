@@ -85,9 +85,11 @@ reference. Do not upgrade a pin without re-running those checks.
 
 ## Caption Specification / 字幕规范
 
-**EN** — The numbers below are enforced by `tools/build_captions.py`; they are not suggestions.
+**EN** — The numbers below are checked by `tools/build_captions.py`. Line count, overlap and a
+sub-second cue stop the build with an error; CPS and over-long cues are warnings you should review.
 
-**中文** — 下面的数字由 `tools/build_captions.py` 强制执行，不是建议值。
+**中文** — 下面的数字由 `tools/build_captions.py` 检查。行数、重叠与不足 1 秒会报错并让构建失败；
+CPS 超限与过长字幕只报警告，需要人工复核。
 
 | Rule / 规则 | Value / 值 | Why / 原因 |
 | --- | --- | --- |

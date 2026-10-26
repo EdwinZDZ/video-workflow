@@ -432,7 +432,7 @@ button {
 
 .stack .role {
   font-family: var(--mono);
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.06em;
   color: var(--dark-muted);
   text-transform: uppercase;
@@ -559,7 +559,7 @@ button {
 .family-list .role {
   display: block;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--muted);
