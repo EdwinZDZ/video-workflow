@@ -2,7 +2,7 @@
 
 # Video Workflow / 视频工作流
 
-**A bilingual workflow for lesson videos — voice, timing, captions, and the ten fonts that carry them.**
+**A bilingual workflow for lesson videos — voice, timing, captions, and the ten fonts that carry them.**<br>
 **面向课程视频的中英双语工作流：配音、时间轴、字幕，以及承载文字的五款字族。**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-0a0a0a?style=flat-square)](./LICENSE)
