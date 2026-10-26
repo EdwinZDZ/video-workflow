@@ -49,17 +49,17 @@ can be opened without a build step.
 
 ## What Ships / 仓库内容
 
-| Path / 路径 | What it is / 内容 |
+| Path<br>路径 | What it is<br>内容 |
 | --- | --- |
-| [`fonts/`](./fonts) | 10 TTF files + 5 OFL license texts · 10 个 TTF 与 5 份 OFL 授权文本 |
-| [`index.html`](./index.html) | Offline specimen page: live preview, coverage, scenes · 离线展示页：实时预览、覆盖、场景 |
-| [`docs/FONTS.md`](./docs/FONTS.md) | Full font directory with metadata and pairing notes · 完整字体目录、元数据与搭配建议 |
-| [`docs/WORKFLOW.md`](./docs/WORKFLOW.md) | Stage contracts, model pins, caption spec · 阶段交接、模型版本、字幕规范 |
-| [`docs/font-report.json`](./docs/font-report.json) | Machine-readable measurement of all 10 files · 十个文件的可机读测量结果 |
-| [`docs/runtime-provenance.json`](./docs/runtime-provenance.json) | Voice and alignment pins, sanitized · 配音与对齐的版本记录（已去除本地路径） |
-| [`docs/previews/`](./docs/previews) | Every image in this README, regenerated from the TTFs · 本文全部图片，由字体重新渲染 |
-| [`tools/`](./tools) | Font report, proof renderer, site data, caption builder · 字体报告、样张渲染、页面数据、字幕工具 |
-| [`samples/`](./samples) | A six-segment bilingual transcript and its SRT/ASS output · 六段双语示例及生成的字幕 |
+| [`fonts/`](./fonts) | 10 TTF files + 5 OFL license texts<br>10 个 TTF 与 5 份 OFL 授权文本 |
+| [`index.html`](./index.html) | Offline specimen page: live preview, coverage, scenes<br>离线展示页：实时预览、覆盖、场景 |
+| [`docs/FONTS.md`](./docs/FONTS.md) | Full font directory with metadata and pairing notes<br>完整字体目录、元数据与搭配建议 |
+| [`docs/WORKFLOW.md`](./docs/WORKFLOW.md) | Stage contracts, model pins, caption spec<br>阶段交接、模型版本、字幕规范 |
+| [`docs/font-report.json`](./docs/font-report.json) | Machine-readable measurement of all 10 files<br>十个文件的可机读测量结果 |
+| [`docs/runtime-provenance.json`](./docs/runtime-provenance.json) | Voice and alignment pins, sanitized<br>配音与对齐的版本记录（已去除本地路径） |
+| [`docs/previews/`](./docs/previews) | Every image in this README, regenerated from the TTFs<br>本文全部图片，由字体重新渲染 |
+| [`tools/`](./tools) | Font report, proof renderer, site data, caption builder<br>字体报告、样张渲染、页面数据、字幕工具 |
+| [`samples/`](./samples) | A six-segment bilingual transcript and its SRT/ASS output<br>六段双语示例及生成的字幕 |
 
 ## The Pipeline / 工作流
 
@@ -70,14 +70,14 @@ contract is in **[docs/WORKFLOW.md](docs/WORKFLOW.md)**.
 **中文** — 六个阶段，各有一个负责者与一份产出：脚本决定说什么，配音与对齐决定什么时候说，
 字幕与字体决定观众读到什么。完整的交接约定见 **[docs/WORKFLOW.md](docs/WORKFLOW.md)**。
 
-| Stage / 阶段 | Tool / 工具 | Output / 产出 |
+| Stage<br>阶段 | Tool<br>工具 | Output<br>产出 |
 | --- | --- | --- |
-| 01 Script · 脚本 | Markdown · Markdown | Sentence-sized segments, both languages · 按句切分的双语文段 |
-| 02 Voice · 配音 | Qwen3-TTS 12 Hz, CustomVoice · Qwen3-TTS 12 Hz | Mono voice track at the model rate · 模型原生采样率的单声道人声 |
-| 03 Timing · 对齐 | Qwen3-ForcedAligner 0.6B · 强制对齐模型 | Word-level timestamps · 词级时间戳 |
-| 04 Captions · 字幕 | [`tools/build_captions.py`](./tools/build_captions.py) | Bilingual SRT + ASS, CPS checked · 双语 SRT/ASS，已检查 CPS |
-| 05 Edit · 剪辑 | OpenScreen 2.0 · 剪辑器 | Editable project, MP4/GIF export · 可编辑工程与导出 |
-| 06 Type · 字体 | This kit · 本仓库字体 | Titles, captions, quotes, code, callouts · 标题、字幕、引文、代码、批注 |
+| 01 Script<br>脚本 | Markdown | Sentence-sized segments, both languages<br>按句切分的双语文段 |
+| 02 Voice<br>配音 | Qwen3-TTS 12 Hz<br>CustomVoice | Mono voice track at the model rate<br>模型原生采样率的单声道人声 |
+| 03 Timing<br>对齐 | Qwen3-ForcedAligner 0.6B<br>强制对齐模型 | Word-level timestamps<br>词级时间戳 |
+| 04 Captions<br>字幕 | [`tools/build_captions.py`](./tools/build_captions.py) | Bilingual SRT + ASS, CPS checked<br>双语 SRT/ASS，已检查 CPS |
+| 05 Edit<br>剪辑 | OpenScreen 2.0<br>剪辑器 | Editable project, MP4/GIF export<br>可编辑工程与导出 |
+| 06 Type<br>字体 | This kit<br>本仓库字体 | Titles, captions, quotes, code, callouts<br>标题、字幕、引文、代码、批注 |
 
 ## Font Directory / 字体目录
 
@@ -88,13 +88,13 @@ the SIL Open Font License 1.1, so they can travel with a commercial course.
 **中文** — 五款字族、每款两个字重、共十个文件、合计 2.3 MB。每款字体都是因为它在一节课程视频里
 把某件事做得比别的字体好，而不是为了凑数。十款全部采用 SIL Open Font License 1.1，可以随商业课程一起分发。
 
-| Family / 字族 | Role / 定位 | Weights / 字重 | Latin core / 拉丁核心 | CJK / 中日韩 | License / 授权 |
+| Family<br>字族 | Role<br>定位 | Weights<br>字重 | Latin core<br>拉丁核心 | CJK<br>中日韩 | License<br>授权 |
 | --- | --- | --- | ---: | ---: | --- |
-| **Inter** | Interface and captions · 界面与字幕 | 400 / 700 | 317/319 | 0 | OFL 1.1 |
-| **Lora** | Editorial and quotations · 编辑排版与引文 | 400 / 700 | 317/319 | 0 | OFL 1.1 |
-| **Oswald** | Titles and lower thirds · 标题与下三分之一 | 400 / 700 | 318/319 | 0 | OFL 1.1 |
-| **Caveat** | Annotations and callouts · 批注与提示 | 400 / 700 | 318/319 | 0 | OFL 1.1 |
-| **IBM Plex Mono** | Code and terminal · 代码与终端 | 400 / 700 | 319/319 | 0 | OFL 1.1 |
+| **Inter** | Interface and captions<br>界面与字幕 | 400 / 700 | 317/319 | 0 | OFL 1.1 |
+| **Lora** | Editorial and quotations<br>编辑排版与引文 | 400 / 700 | 317/319 | 0 | OFL 1.1 |
+| **Oswald** | Titles and lower thirds<br>标题与下三分之一 | 400 / 700 | 318/319 | 0 | OFL 1.1 |
+| **Caveat** | Annotations and callouts<br>批注与提示 | 400 / 700 | 318/319 | 0 | OFL 1.1 |
+| **IBM Plex Mono** | Code and terminal<br>代码与终端 | 400 / 700 | 319/319 | 0 | OFL 1.1 |
 
 <table>
   <tr>
@@ -130,7 +130,7 @@ of the source families, not a packaging mistake.
 
 ![Character set coverage measured from cmap / 由 cmap 实测的字符集覆盖](docs/previews/charset-coverage.png)
 
-| Family / 字族 | Basic / 基本 | Latin-1 | Ext-A | Greek / 希腊 | Cyrillic / 西里尔 | CJK |
+| Family<br>字族 | Basic<br>基本 | Latin-1 | Ext-A | Greek<br>希腊 | Cyrillic<br>西里尔 | CJK<br>中日韩 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Inter | 95/95 | 95/96 | 127/128 | 105/144 | 248/256 | 0/20,992 |
 | Lora | 95/95 | 95/96 | 127/128 | 6/144 | 224/256 | 0/20,992 |
