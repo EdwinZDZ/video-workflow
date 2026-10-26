@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "provider": "qwen3-tts",
+  "python": "3.12.10",
+  "package": "qwen-tts==0.1.1",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.3",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+  "revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+  "verifiedSpeaker": "Vivian",
+  "actualSynthesisAndAlignmentPassed": true,
+  "referenceVoice": {
+    "provider": "qwen3-clone",
+    "speaker": "reference-tutorial",
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+    "referenceSha256": "32a12c9748be276b00e997b4a61067b580ae58da8bab237e114290477627c4e8",
+    "actualSynthesisAndAlignmentPassed": true,
+    "xVectorOnly": false,
+    "backgroundMusicAdded": false,
+    "removeBackground": true,
+    "cadencePolicy": "inherit-clean-reference-prosody"
+  }
+}

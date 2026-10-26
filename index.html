@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Workflow · 视频工作流 — Font kit and lesson pipeline · 字体套件与课程流程</title>
+  <meta name="description" content="A bilingual lesson-video workflow: TTS, forced alignment, bilingual captions, and a curated ten-file type kit. 双语课程视频工作流：语音合成、强制对齐、双语字幕与十款开源字体。">
+  <meta name="theme-color" content="#f6f3ec">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content / 跳到正文</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">
+        <strong>Video Workflow</strong>
+        <span class="zh">视频工作流</span>
+      </a>
+      <nav class="nav" aria-label="Sections / 页面导航">
+        <a href="#type">Type <span class="zh">字体</span></a>
+        <a href="#coverage">Coverage <span class="zh">覆盖</span></a>
+        <a href="#scenes">Scenes <span class="zh">场景</span></a>
+        <a href="#workflow">Workflow <span class="zh">流程</span></a>
+        <a href="#use">Use <span class="zh">使用</span></a>
+        <a class="gh" href="https://github.com/EdwinZDZ/video-workflow" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="kicker">Open-source lesson workflow <span class="zh">开源课程工作流</span></p>
+          <h1>
+            Make every lesson land.
+            <span class="zh" lang="zh-CN">让每一节课，都讲得清楚。</span>
+          </h1>
+          <p class="lede">
+            A reproducible pipeline for lesson videos: synthesize the voice, align every word,
+            set bilingual captions, then cut in an editor that renders offline. The ten fonts
+            that carry the text ship with it.
+            <span class="zh" lang="zh-CN">
+              一套可复现的课程视频工作流：合成配音、对齐每个词、排双语字幕，再用离线渲染的剪辑器完成成片。
+              承载文字的五款字族、十个字体文件，随仓库一起发布。
+            </span>
+          </p>
+          <div class="stats">
+            <div class="stat"><b>05</b><span>Families <span class="zh">字族</span></span></div>
+            <div class="stat"><b>10</b><span>Font files <span class="zh">字体文件</span></span></div>
+            <div class="stat"><b>319</b><span>Latin core <span class="zh">拉丁核心字</span></span></div>
+            <div class="stat"><b>0</b><span>CJK glyphs <span class="zh">中日文字形</span></span></div>
+          </div>
+        </div>
+
+        <aside class="stack" aria-label="Type kit index / 字体套件索引">
+          <div class="stack-head">
+            <span>The type kit <span class="zh">字体套件</span></span>
+            <span>01 — 05</span>
+          </div>
+          <div id="stackList"></div>
+          <div class="stack-foot">All files SIL OFL 1.1 · 全部为 SIL OFL 1.1</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="type">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-index">01</div>
+          <h2>Font directory <span class="zh" lang="zh-CN">字体目录</span></h2>
+          <p class="intro">
+            Five families, two weights each. Everything below is measured from the files in
+            <code>fonts/</code>, not copied from a vendor page — open a family and the specimen,
+            coverage and downloads follow.
+            <span class="zh" lang="zh-CN">
+              五款字族，每款两个字重。下面的数据全部从 <code>fonts/</code> 里的字体文件实测得出，
+              不抄厂商页面；切换字族，样张、覆盖与下载会一起更新。
+            </span>
+          </p>
+        </header>
+
+        <div class="studio">
+          <div class="family-list" id="familyList" role="group" aria-label="Font families / 字族"></div>
+
+          <div class="stage">
+            <div class="stage-head">
+              <div>
+                <h3 id="stageName">Inter</h3>
+                <p class="role" id="stageRole">Interface and captions <span class="zh">界面与字幕</span></p>
+              </div>
+              <div class="stage-meta" id="stageMeta"></div>
+            </div>
+
+            <div class="controls">
+              <div class="control">
+                <label for="previewInput">Preview text <span class="zh">预览文字</span></label>
+                <input type="text" id="previewInput" value="Every lesson deserves a clear voice." autocomplete="off" spellcheck="false">
+              </div>
+              <div class="control">
+                <label for="sizeRange">Size <span class="zh">字号</span></label>
+                <div class="range-row">
+                  <input type="range" id="sizeRange" min="28" max="132" step="2" value="76">
+                  <output class="range-value" id="sizeValue" for="sizeRange">76</output>
+                </div>
+              </div>
+              <div class="control">
+                <label>Weight <span class="zh">字重</span></label>
+                <div class="weights" role="group" aria-label="Weight / 字重">
+                  <button type="button" data-weight="Regular" aria-pressed="true">Regular 400</button>
+                  <button type="button" data-weight="Bold" aria-pressed="false">Bold 700</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview">
+              <p id="previewText">Every lesson deserves a clear voice.</p>
+              <div class="preview-foot">
+                <span id="previewSpec">Inter — Regular 400</span>
+                <span id="previewCoverage">LATIN 317/319 · CJK 0</span>
+              </div>
+            </div>
+
+            <div class="stage-notes">
+              <p id="noteEn"></p>
+              <p class="zh" id="noteZh" lang="zh-CN"></p>
+            </div>
+
+            <div class="stage-actions">
+              <a class="btn solid" id="downloadRegular" href="fonts/Inter-Regular.ttf" download>Download regular <span class="zh">下载常规体</span></a>
+              <a class="btn" id="downloadBold" href="fonts/Inter-Bold.ttf" download>Download bold <span class="zh">下载粗体</span></a>
+              <a class="btn" id="specimenLink" href="docs/previews/specimen-inter.png" target="_blank" rel="noopener">PNG specimen <span class="zh">样张</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table id="fontTable">
+            <thead>
+              <tr>
+                <th>File <span class="zh">文件</span></th>
+                <th>Family <span class="zh">字族</span></th>
+                <th>Weight <span class="zh">字重</span></th>
+                <th>Size <span class="zh">体积</span></th>
+                <th>Glyphs <span class="zh">字形</span></th>
+                <th>Mapped <span class="zh">字符</span></th>
+                <th>Latin <span class="zh">拉丁</span></th>
+                <th>CJK <span class="zh">中日韩</span></th>
+                <th>License <span class="zh">授权</span></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <noscript><p class="intro">Enable JavaScript for the live specimen and the generated index. 请启用 JavaScript 以查看实时样张与索引。</p></noscript>
+      </div>
+    </section>
+
+    <section class="section" id="coverage">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-index">02</div>
+          <h2>Character set coverage <span class="zh" lang="zh-CN">字符集覆盖</span></h2>
+          <p class="intro">
+            Latin is complete; Chinese is absent. The table counts every character in each block,
+            and the explorer renders real glyphs — where a glyph is missing, the browser falls back
+            exactly as a renderer would, and the panel says so instead of hiding it.
+            <span class="zh" lang="zh-CN">
+              拉丁区是完整的，中文区是空白的。表格逐个统计区块内的字符，浏览器按真实字体渲染；
+              缺字时由系统字体接管——这正是成片时的行为，面板会直接说明，而不是把回退藏起来。
+            </span>
+          </p>
+        </header>
+
+        <div class="coverage-grid">
+          <div class="coverage-table" id="coverageTable" aria-label="Coverage by family / 各字族覆盖"></div>
+
+          <div class="glyph-panel">
+            <div class="tabs" id="blockTabs" role="tablist" aria-label="Character blocks / 字符区块"></div>
+            <div class="glyph-meta">
+              <span id="glyphTitle">Basic Latin</span>
+              <span id="glyphCount">95 / 95</span>
+            </div>
+            <div class="glyphs" id="glyphGrid" role="tabpanel" aria-live="polite"></div>
+            <div class="fallback-note" id="fallbackNote" hidden>
+              <strong>No CJK glyphs in this family.</strong> The browser is using your system Chinese face.
+              <span class="zh" lang="zh-CN"><strong>该字族不含中日韩字形。</strong>当前显示的中文由系统字体渲染。</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="scenes">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-index">03</div>
+          <h2>In use <span class="zh" lang="zh-CN">应用场景</span></h2>
+          <p class="intro">
+            Four frames rendered from the shipped files by <code>tools/render_previews.py</code>:
+            an opening title, a bilingual subtitle, end credits and an annotation layer. English is
+            set in the kit; Chinese is set in the system face, at the size a real fallback would take.
+            <span class="zh" lang="zh-CN">
+              四张画面均由 <code>tools/render_previews.py</code> 用仓库字体渲染：片名卡、双语字幕、
+              片尾字幕与批注层。英文使用自带字体，中文使用系统字体，并按真实回退后的字号排版。
+            </span>
+          </p>
+        </header>
+
+        <div class="scenes">
+          <figure class="scene">
+            <img src="docs/previews/scene-title.png" alt="Opening title card set in Oswald, with a Chinese line in the system CJK face / 用 Oswald 排的片名卡，中文由系统字体渲染" loading="lazy" width="1600" height="900">
+            <figcaption>
+              <p class="scene-title">Opening title <span class="zh">片名卡</span></p>
+              <p>Oswald 700 at display size; Inter carries the deck line. The ghost numeral keeps the frame from floating.</p>
+              <p class="zh" lang="zh-CN">Oswald 700 排主标题，Inter 承担副标题；背景大号数字让画面不飘。</p>
+            </figcaption>
+          </figure>
+
+          <figure class="scene">
+            <img src="docs/previews/scene-subtitle.png" alt="Subtitle frame with a two-line bilingual caption inside an 8 percent safe area / 含两行双语字幕与 8% 安全区的字幕画面" loading="lazy" width="1600" height="900">
+            <figcaption>
+              <p class="scene-title">Subtitle frame <span class="zh">字幕画面</span></p>
+              <p>Two lines, one idea: English in Inter, Chinese in the system face, both inside the 8% safe area.</p>
+              <p class="zh" lang="zh-CN">两行、一个意思：英文用 Inter，中文用系统字体，都在 8% 安全区内。</p>
+            </figcaption>
+          </figure>
+
+          <figure class="scene">
+            <img src="docs/previews/scene-credits.png" alt="End credits with a Lora quotation and IBM Plex Mono credit list / 用 Lora 引文与 IBM Plex Mono 名单排的片尾字幕" loading="lazy" width="1600" height="900">
+            <figcaption>
+              <p class="scene-title">End credits <span class="zh">片尾字幕</span></p>
+              <p>Lora gives the closing line a voice; Plex Mono keeps the production credits aligned.</p>
+              <p class="zh" lang="zh-CN">Lora 让收尾那句话有语气，Plex Mono 让制作名单对齐。</p>
+            </figcaption>
+          </figure>
+
+          <figure class="scene">
+            <img src="docs/previews/scene-annotation.png" alt="Annotation layer with a handwritten Caveat callout pointing at a retention drop / 用 Caveat 手写批注指出留存下滑点的画面" loading="lazy" width="1600" height="900">
+            <figcaption>
+              <p class="scene-title">Annotation layer <span class="zh">批注层</span></p>
+              <p>Caveat marks the moment without looking like interface chrome; the arrow does the pointing.</p>
+              <p class="zh" lang="zh-CN">Caveat 标出重点，却不像是界面控件；箭头负责指路。</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-index">04</div>
+          <h2>The workflow <span class="zh" lang="zh-CN">工作流</span></h2>
+          <p class="intro">
+            Six stages, each with one owner. The script decides the words; the voice and the aligner
+            decide the time; the captions and the type decide what the viewer reads.
+            <span class="zh" lang="zh-CN">
+              六个阶段，各有一个明确的负责者：脚本决定说什么，配音与对齐决定什么时候说，
+              字幕与字体决定观众读到什么。
+            </span>
+          </p>
+        </header>
+
+        <div class="flow">
+          <article class="step">
+            <div class="step-no">01</div>
+            <h3>Script <span class="zh">脚本</span></h3>
+            <p>Write for the ear: one idea per sentence, one sentence per beat. The script is the source of truth for every later stage.</p>
+            <p class="zh" lang="zh-CN">为耳朵写作：一句一个意思，一句一个节拍。脚本是后续所有阶段的唯一事实来源。</p>
+            <span class="tag">Markdown</span>
+          </article>
+
+          <article class="step">
+            <div class="step-no">02</div>
+            <h3>Voice <span class="zh">配音</span></h3>
+            <p>Qwen3-TTS 12 Hz with the CustomVoice speaker Vivian, verified against a cleaned reference take. No music is baked in.</p>
+            <p class="zh" lang="zh-CN">Qwen3-TTS 12 Hz，CustomVoice 音色 Vivian，已用清理过的参考音验证；不预混背景音乐。</p>
+            <span class="tag">Qwen3-TTS</span>
+          </article>
+
+          <article class="step">
+            <div class="step-no">03</div>
+            <h3>Timing <span class="zh">对齐</span></h3>
+            <p>Qwen3-ForcedAligner 0.6B returns word-level timestamps. Captions inherit them instead of estimating from pauses.</p>
+            <p class="zh" lang="zh-CN">Qwen3-ForcedAligner 0.6B 返回词级时间戳，字幕直接继承，而不是靠停顿位置估算。</p>
+            <span class="tag">Forced aligner</span>
+          </article>
+
+          <article class="step">
+            <div class="step-no">04</div>
+            <h3>Captions <span class="zh">字幕</span></h3>
+            <p>Bilingual SRT and ASS with an 8% safe margin, a two-line limit and a characters-per-second check before export.</p>
+            <p class="zh" lang="zh-CN">双语 SRT 与 ASS，8% 安全边距、两行上限，导出前做每秒字数（CPS）校验。</p>
+            <span class="tag">SRT · ASS</span>
+          </article>
+
+          <article class="step">
+            <div class="step-no">05</div>
+            <h3>Edit <span class="zh">剪辑</span></h3>
+            <p>OpenScreen 2.0 handles zooms, annotations and GPU export. The project file stays editable after the first render.</p>
+            <p class="zh" lang="zh-CN">OpenScreen 2.0 负责缩放、批注与 GPU 导出；首次渲染后工程文件仍可继续编辑。</p>
+            <span class="tag">OpenScreen</span>
+          </article>
+
+          <article class="step">
+            <div class="step-no">06</div>
+            <h3>Type <span class="zh">字体</span></h3>
+            <p>Five OFL families cover titles, captions, quotes, code and callouts. Chinese falls back to the system face, measured above.</p>
+            <p class="zh" lang="zh-CN">五款 OFL 字族分别承担标题、字幕、引文、代码与批注；中文回退系统字体，覆盖率见上一节。</p>
+            <span class="tag">SIL OFL 1.1</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="use">
+      <div class="wrap">
+        <header class="section-head">
+          <div class="section-index">05</div>
+          <h2>Use the kit <span class="zh" lang="zh-CN">使用方式</span></h2>
+          <p class="intro">
+            Drop the fonts into any editor or renderer, or rerun the scripts that produced every
+            number and image on this page. Nothing here needs a build step.
+            <span class="zh" lang="zh-CN">
+              把字体放进任意剪辑器或渲染器，或者重跑生成这页所有数字与图片的脚本。这里没有构建步骤。
+            </span>
+          </p>
+        </header>
+
+        <div class="use-grid">
+          <div class="use-card">
+            <h3>Take the type <span class="zh">取用字体</span></h3>
+            <p>Copy the family you need. Keep the OFL text next to it when you redistribute the file.</p>
+            <p class="zh" lang="zh-CN">复制需要的字族；再分发字体文件时，请把对应的 OFL 授权文本一起带上。</p>
+            <pre><code>cp fonts/Inter-Regular.ttf fonts/Inter-Bold.ttf your-project/fonts/
+cp fonts/Inter-OFL.txt your-project/fonts/</code></pre>
+          </div>
+
+          <div class="use-card">
+            <h3>Rebuild the proofs <span class="zh">重建样张</span></h3>
+            <p>Python 3.10+ with fontTools and Pillow. The report reads the TTFs; the images read the report.</p>
+            <p class="zh" lang="zh-CN">需要 Python 3.10+、fontTools 与 Pillow。报告读取 TTF，图片再读取报告。</p>
+            <pre><code>python tools/font_report.py --fonts fonts --out docs/font-report.json
+python tools/render_previews.py
+python tools/build_site_data.py</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <h2>Use it, fork it, teach with it. <span class="zh" lang="zh-CN">拿去用，拿去改，拿去上课。</span></h2>
+          <p class="footer-lede">
+            The workflow and its tooling are MIT licensed. The ten font files keep their SIL OFL 1.1
+            terms; the models referenced in the pipeline are Apache-2.0. Read the notice before you
+            redistribute a font.
+            <span class="zh" lang="zh-CN">
+              工作流与工具链采用 MIT 许可；十个字体文件沿用 SIL OFL 1.1；流程中引用的模型为 Apache-2.0。
+              再分发字体前，请先阅读仓库声明。
+            </span>
+          </p>
+        </div>
+        <nav class="footer-links" aria-label="Project links / 项目链接">
+          <a href="https://github.com/EdwinZDZ/video-workflow#readme" target="_blank" rel="noopener">README <span>项目说明 ↗</span></a>
+          <a href="docs/FONTS.md" target="_blank" rel="noopener">Font directory <span>字体目录 ↗</span></a>
+          <a href="docs/WORKFLOW.md" target="_blank" rel="noopener">Workflow notes <span>工作流详述 ↗</span></a>
+          <a href="CONTRIBUTING.md" target="_blank" rel="noopener">Contributing <span>贡献方式 ↗</span></a>
+          <a href="LICENSE" target="_blank" rel="noopener">License <span>开源许可证 ↗</span></a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Edwin · Video Workflow <span class="zh">视频工作流</span></span>
+        <div class="license-row">
+          <span>Code · MIT</span>
+          <span>Fonts · OFL 1.1</span>
+          <span>Models · Apache-2.0</span>
+        </div>
+        <span>English first, Chinese second <span class="zh">英文在前，中文在后</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/font-data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

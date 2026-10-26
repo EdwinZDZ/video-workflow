@@ -1,0 +1,1514 @@
+{
+  "schemaVersion": 1,
+  "generator": "tools/font_report.py",
+  "fontCount": 10,
+  "families": [
+    "Inter",
+    "Lora",
+    "Oswald",
+    "Caveat",
+    "IBM Plex Mono"
+  ],
+  "fonts": [
+    {
+      "file": "Inter-Regular.ttf",
+      "family": "Inter",
+      "style": "Regular",
+      "fullName": "Inter Regular",
+      "version": "Version 4.001;git-9221beed3",
+      "designer": "Rasmus Andersson",
+      "foundry": "rsms",
+      "license": "OFL-1.1",
+      "weightClass": 400,
+      "isMonospace": false,
+      "unitsPerEm": 2048,
+      "glyphs": 2937,
+      "mappedCodepoints": 2852,
+      "latinCore": 317,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 207,
+          "total": 208,
+          "ratio": 0.9952
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 105,
+          "total": 144,
+          "ratio": 0.7292
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 248,
+          "total": 256,
+          "ratio": 0.9688
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 77,
+          "total": 112,
+          "ratio": 0.6875
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 28,
+          "total": 32,
+          "ratio": 0.875
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 21,
+          "total": 80,
+          "ratio": 0.2625
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 28,
+          "total": 112,
+          "ratio": 0.25
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 18,
+          "total": 256,
+          "ratio": 0.0703
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN",
+        "U+0149 LATIN SMALL LETTER N PRECEDED BY APOSTROPHE"
+      ],
+      "bytes": 411640
+    },
+    {
+      "file": "Inter-Bold.ttf",
+      "family": "Inter",
+      "style": "Bold",
+      "fullName": "Inter Bold",
+      "version": "Version 4.001;git-9221beed3",
+      "designer": "Rasmus Andersson",
+      "foundry": "rsms",
+      "license": "OFL-1.1",
+      "weightClass": 700,
+      "isMonospace": false,
+      "unitsPerEm": 2048,
+      "glyphs": 2937,
+      "mappedCodepoints": 2852,
+      "latinCore": 317,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 207,
+          "total": 208,
+          "ratio": 0.9952
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 105,
+          "total": 144,
+          "ratio": 0.7292
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 248,
+          "total": 256,
+          "ratio": 0.9688
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 77,
+          "total": 112,
+          "ratio": 0.6875
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 28,
+          "total": 32,
+          "ratio": 0.875
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 21,
+          "total": 80,
+          "ratio": 0.2625
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 28,
+          "total": 112,
+          "ratio": 0.25
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 18,
+          "total": 256,
+          "ratio": 0.0703
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN",
+        "U+0149 LATIN SMALL LETTER N PRECEDED BY APOSTROPHE"
+      ],
+      "bytes": 420428
+    },
+    {
+      "file": "Lora-Regular.ttf",
+      "family": "Lora",
+      "style": "Regular",
+      "fullName": "Lora Regular",
+      "version": "Version 3.021; ttfautohint (v1.8.4.7-5d5b)",
+      "designer": "Olga Karpushina, Alexei Vanyashin (Cyrillic)",
+      "foundry": "Cyreal",
+      "license": "OFL-1.1",
+      "weightClass": 400,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 892,
+      "mappedCodepoints": 778,
+      "latinCore": 317,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 28,
+          "total": 208,
+          "ratio": 0.1346
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 6,
+          "total": 144,
+          "ratio": 0.0417
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 224,
+          "total": 256,
+          "ratio": 0.875
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 6,
+          "total": 32,
+          "ratio": 0.1875
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 7,
+          "total": 80,
+          "ratio": 0.0875
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 14,
+          "total": 256,
+          "ratio": 0.0547
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN",
+        "U+0138 LATIN SMALL LETTER KRA"
+      ],
+      "bytes": 198380
+    },
+    {
+      "file": "Lora-Bold.ttf",
+      "family": "Lora",
+      "style": "Bold",
+      "fullName": "Lora Bold",
+      "version": "Version 3.021; ttfautohint (v1.8.4.7-5d5b)",
+      "designer": "Olga Karpushina, Alexei Vanyashin (Cyrillic)",
+      "foundry": "Cyreal",
+      "license": "OFL-1.1",
+      "weightClass": 700,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 892,
+      "mappedCodepoints": 778,
+      "latinCore": 317,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 28,
+          "total": 208,
+          "ratio": 0.1346
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 6,
+          "total": 144,
+          "ratio": 0.0417
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 224,
+          "total": 256,
+          "ratio": 0.875
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 6,
+          "total": 32,
+          "ratio": 0.1875
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 7,
+          "total": 80,
+          "ratio": 0.0875
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 14,
+          "total": 256,
+          "ratio": 0.0547
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN",
+        "U+0138 LATIN SMALL LETTER KRA"
+      ],
+      "bytes": 218640
+    },
+    {
+      "file": "Oswald-Regular.ttf",
+      "family": "Oswald",
+      "style": "Regular",
+      "fullName": "Oswald Regular",
+      "version": "Version 4.103; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33.dev8+g029e19f]",
+      "designer": "Vernon Adams",
+      "foundry": "Vernon Adams",
+      "license": "OFL-1.1",
+      "weightClass": 400,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 771,
+      "mappedCodepoints": 737,
+      "latinCore": 318,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 128,
+          "total": 128,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 80,
+          "total": 208,
+          "ratio": 0.3846
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 2,
+          "total": 144,
+          "ratio": 0.0139
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 126,
+          "total": 256,
+          "ratio": 0.4922
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 16,
+          "total": 32,
+          "ratio": 0.5
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 6,
+          "total": 80,
+          "ratio": 0.075
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 14,
+          "total": 256,
+          "ratio": 0.0547
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN"
+      ],
+      "bytes": 105572
+    },
+    {
+      "file": "Oswald-Bold.ttf",
+      "family": "Oswald",
+      "style": "Bold",
+      "fullName": "Oswald Bold",
+      "version": "Version 4.103; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.33.dev8+g029e19f]",
+      "designer": "Vernon Adams",
+      "foundry": "Vernon Adams",
+      "license": "OFL-1.1",
+      "weightClass": 700,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 771,
+      "mappedCodepoints": 737,
+      "latinCore": 318,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 95,
+          "total": 96,
+          "ratio": 0.9896
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 128,
+          "total": 128,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 80,
+          "total": 208,
+          "ratio": 0.3846
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 2,
+          "total": 144,
+          "ratio": 0.0139
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 126,
+          "total": 256,
+          "ratio": 0.4922
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 16,
+          "total": 32,
+          "ratio": 0.5
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 6,
+          "total": 80,
+          "ratio": 0.075
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 14,
+          "total": 256,
+          "ratio": 0.0547
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+00AD SOFT HYPHEN"
+      ],
+      "bytes": 108496
+    },
+    {
+      "file": "Caveat-Regular.ttf",
+      "family": "Caveat",
+      "style": "Regular",
+      "fullName": "Caveat Regular",
+      "version": "Version 2.000; ttfautohint (v1.8.3)",
+      "designer": "Pablo Impallari",
+      "foundry": "Pablo Impallari",
+      "license": "OFL-1.1",
+      "weightClass": 400,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 1032,
+      "mappedCodepoints": 753,
+      "latinCore": 318,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 96,
+          "total": 96,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 59,
+          "total": 208,
+          "ratio": 0.2837
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 1,
+          "total": 144,
+          "ratio": 0.0069
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 220,
+          "total": 256,
+          "ratio": 0.8594
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 12,
+          "total": 32,
+          "ratio": 0.375
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 3,
+          "total": 80,
+          "ratio": 0.0375
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 7,
+          "total": 256,
+          "ratio": 0.0273
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+017F LATIN SMALL LETTER LONG S"
+      ],
+      "bytes": 297900
+    },
+    {
+      "file": "Caveat-Bold.ttf",
+      "family": "Caveat",
+      "style": "Bold",
+      "fullName": "Caveat Bold",
+      "version": "Version 2.000; ttfautohint (v1.8.3)",
+      "designer": "Pablo Impallari",
+      "foundry": "Pablo Impallari",
+      "license": "OFL-1.1",
+      "weightClass": 700,
+      "isMonospace": false,
+      "unitsPerEm": 1000,
+      "glyphs": 1032,
+      "mappedCodepoints": 753,
+      "latinCore": 318,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 96,
+          "total": 96,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 127,
+          "total": 128,
+          "ratio": 0.9922
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 59,
+          "total": 208,
+          "ratio": 0.2837
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 1,
+          "total": 144,
+          "ratio": 0.0069
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 220,
+          "total": 256,
+          "ratio": 0.8594
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 20,
+          "total": 112,
+          "ratio": 0.1786
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 12,
+          "total": 32,
+          "ratio": 0.375
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 3,
+          "total": 80,
+          "ratio": 0.0375
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 0,
+          "total": 112,
+          "ratio": 0.0
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 7,
+          "total": 256,
+          "ratio": 0.0273
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [
+        "U+017F LATIN SMALL LETTER LONG S"
+      ],
+      "bytes": 303088
+    },
+    {
+      "file": "IBMPlexMono-Regular.ttf",
+      "family": "IBM Plex Mono",
+      "style": "Regular",
+      "fullName": "IBM Plex Mono Regular",
+      "version": "Version 2.3",
+      "designer": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+      "foundry": "Bold Monday",
+      "license": "OFL-1.1",
+      "weightClass": 400,
+      "isMonospace": true,
+      "unitsPerEm": 1000,
+      "glyphs": 1033,
+      "mappedCodepoints": 930,
+      "latinCore": 319,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 96,
+          "total": 96,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 128,
+          "total": 128,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 33,
+          "total": 208,
+          "ratio": 0.1587
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 1,
+          "total": 144,
+          "ratio": 0.0069
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 168,
+          "total": 256,
+          "ratio": 0.6562
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 18,
+          "total": 112,
+          "ratio": 0.1607
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 19,
+          "total": 32,
+          "ratio": 0.5938
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 5,
+          "total": 80,
+          "ratio": 0.0625
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 22,
+          "total": 112,
+          "ratio": 0.1964
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 13,
+          "total": 256,
+          "ratio": 0.0508
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [],
+      "bytes": 135580
+    },
+    {
+      "file": "IBMPlexMono-Bold.ttf",
+      "family": "IBM Plex Mono",
+      "style": "Bold",
+      "fullName": "IBM Plex Mono Bold",
+      "version": "Version 2.3",
+      "designer": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen",
+      "foundry": "Bold Monday",
+      "license": "OFL-1.1",
+      "weightClass": 700,
+      "isMonospace": true,
+      "unitsPerEm": 1000,
+      "glyphs": 1033,
+      "mappedCodepoints": 930,
+      "latinCore": 319,
+      "latinCoreTotal": 319,
+      "cjk": 0,
+      "blocks": [
+        {
+          "id": "basic-latin",
+          "label": "Basic Latin",
+          "zh": "基本拉丁",
+          "range": "U+0020–U+007E",
+          "covered": 95,
+          "total": 95,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-1",
+          "label": "Latin-1 Supplement",
+          "zh": "拉丁-1 补充",
+          "range": "U+00A0–U+00FF",
+          "covered": 96,
+          "total": 96,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-a",
+          "label": "Latin Extended-A",
+          "zh": "拉丁扩展-A",
+          "range": "U+0100–U+017F",
+          "covered": 128,
+          "total": 128,
+          "ratio": 1.0
+        },
+        {
+          "id": "latin-ext-b",
+          "label": "Latin Extended-B",
+          "zh": "拉丁扩展-B",
+          "range": "U+0180–U+024F",
+          "covered": 33,
+          "total": 208,
+          "ratio": 0.1587
+        },
+        {
+          "id": "greek",
+          "label": "Greek and Coptic",
+          "zh": "希腊与科普特",
+          "range": "U+0370–U+03FF",
+          "covered": 1,
+          "total": 144,
+          "ratio": 0.0069
+        },
+        {
+          "id": "cyrillic",
+          "label": "Cyrillic",
+          "zh": "西里尔",
+          "range": "U+0400–U+04FF",
+          "covered": 168,
+          "total": 256,
+          "ratio": 0.6562
+        },
+        {
+          "id": "punctuation",
+          "label": "General Punctuation",
+          "zh": "通用标点",
+          "range": "U+2000–U+206F",
+          "covered": 18,
+          "total": 112,
+          "ratio": 0.1607
+        },
+        {
+          "id": "currency",
+          "label": "Currency Symbols",
+          "zh": "货币符号",
+          "range": "U+20A0–U+20BF",
+          "covered": 19,
+          "total": 32,
+          "ratio": 0.5938
+        },
+        {
+          "id": "letterlike",
+          "label": "Letterlike Symbols",
+          "zh": "类字母符号",
+          "range": "U+2100–U+214F",
+          "covered": 5,
+          "total": 80,
+          "ratio": 0.0625
+        },
+        {
+          "id": "arrows",
+          "label": "Arrows",
+          "zh": "箭头",
+          "range": "U+2190–U+21FF",
+          "covered": 22,
+          "total": 112,
+          "ratio": 0.1964
+        },
+        {
+          "id": "math",
+          "label": "Mathematical Operators",
+          "zh": "数学运算符",
+          "range": "U+2200–U+22FF",
+          "covered": 13,
+          "total": 256,
+          "ratio": 0.0508
+        },
+        {
+          "id": "cjk-punctuation",
+          "label": "CJK Symbols and Punctuation",
+          "zh": "中日韩标点",
+          "range": "U+3000–U+303F",
+          "covered": 0,
+          "total": 64,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk",
+          "label": "CJK Unified Ideographs",
+          "zh": "中日韩统一表意文字",
+          "range": "U+4E00–U+9FFF",
+          "covered": 0,
+          "total": 20992,
+          "ratio": 0.0
+        },
+        {
+          "id": "cjk-ext-a",
+          "label": "CJK Extension A",
+          "zh": "中日韩扩展-A",
+          "range": "U+3400–U+4DBF",
+          "covered": 0,
+          "total": 6592,
+          "ratio": 0.0
+        }
+      ],
+      "missingLatin": [],
+      "bytes": 137784
+    }
+  ]
+}

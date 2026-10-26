@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Make it clear",
+    "fps": 30,
+    "source": "Qwen3-ForcedAligner-0.6B word timings, regrouped into sentences"
+  },
+  "segments": [
+    {
+      "start": 0.4,
+      "end": 4.8,
+      "en": "Every lesson starts with a script.",
+      "zh": "每节课都从一份脚本开始。"
+    },
+    {
+      "start": 5.0,
+      "end": 10.2,
+      "en": "Write for the ear: one idea per sentence.",
+      "zh": "为耳朵写作：一句一个意思。"
+    },
+    {
+      "start": 10.4,
+      "end": 16.0,
+      "en": "The voice is synthesized, then every word is aligned.",
+      "zh": "先合成配音，再对齐每一个词。"
+    },
+    {
+      "start": 16.2,
+      "end": 21.4,
+      "en": "Captions inherit those timestamps instead of guessing.",
+      "zh": "字幕继承这些时间戳，而不是靠猜。"
+    },
+    {
+      "start": 21.6,
+      "end": 26.8,
+      "en": "Two lines, one idea, inside the safe area.",
+      "zh": "两行，一个意思，放在安全区内。"
+    },
+    {
+      "start": 27.0,
+      "end": 32.0,
+      "en": "Then the cut: zooms, callouts, and an export.",
+      "zh": "最后剪辑：缩放、批注，然后导出。"
+    }
+  ]
+}

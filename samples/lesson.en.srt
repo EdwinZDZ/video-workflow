@@ -1,0 +1,26 @@
+1
+00:00:00,400 --> 00:00:04,800
+Every lesson starts with a script.
+
+2
+00:00:05,000 --> 00:00:10,200
+Write for the ear: one idea per sentence.
+
+3
+00:00:10,400 --> 00:00:16,000
+The voice is synthesized,
+then every word is aligned.
+
+4
+00:00:16,200 --> 00:00:21,400
+Captions inherit those
+timestamps instead of guessing.
+
+5
+00:00:21,600 --> 00:00:26,800
+Two lines, one idea, inside the safe area.
+
+6
+00:00:27,000 --> 00:00:32,000
+Then the cut: zooms,
+callouts, and an export.
